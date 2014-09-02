@@ -2,8 +2,8 @@
 //  AppHypeSampleTests.m
 //  AppHypeSampleTests
 //
-//  Created by Rajeev on 28/08/14.
-//  Copyright (c) 2014 Shephertz Technologies Pvt Ltd. All rights reserved.
+//  Created by Shephertz Technologies Pvt Ltd on 01/09/14.
+//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

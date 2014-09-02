@@ -1,14 +1,14 @@
 //
-//  App42AppDelegate.m
+//  AHAppDelegate.m
 //  AppHypeSample
 //
-//  Created by Rajeev on 28/08/14.
-//  Copyright (c) 2014 Shephertz Technologies Pvt Ltd. All rights reserved.
+//  Created by Shephertz Technologies Pvt Ltd on 01/09/14.
+//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
-#import "App42AppDelegate.h"
+#import "AHAppDelegate.h"
 
-@implementation App42AppDelegate
+@implementation AHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

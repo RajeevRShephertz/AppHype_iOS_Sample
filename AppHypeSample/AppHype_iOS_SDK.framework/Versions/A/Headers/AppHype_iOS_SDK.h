@@ -8,5 +8,4 @@
 
 
 #import<UIKit/UIKit.h>
-#import<AppHype_iOS_SDK/Add.h>
 #import<AppHype_iOS_SDK/AppHype.h>
