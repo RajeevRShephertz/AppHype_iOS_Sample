@@ -8,8 +8,8 @@
 
 #import "AHViewController.h"
 
-#define APP_KEY @"Your_API_Key"
-#define SECRET_KEY @"Your_Secret_Key"
+#define APP_KEY     @"830a9625a1d09989215a2370e026e9cade6fe09b645e782db53bc99deda54272"
+#define SECRET_KEY  @"aac6795115e7a0a3d88f70d585e30a197a4a8e6b1cf1b679933921f3e4a4332d"
 
 
 @interface AHViewController ()
@@ -17,6 +17,7 @@
 @end
 
 @implementation AHViewController
+
 
 - (void)viewDidLoad
 {
@@ -28,6 +29,7 @@
     
     int showAdAfterLaunchNumber = 5;
     [[AppHype sharedInstance] restrictAd:showAdAfterLaunchNumber];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -109,5 +111,29 @@
     [self.view addSubview:alertView];
     [alertView show];
 }
+
+
+//- (void)deviceOrientationDidChange:(NSNotification *)notification
+//{
+//    //Obtaining the current device orientation
+//    UIDeviceOrientation orientation = [[UIDevice currentDevice] orientation];
+//    
+//    //Ignoring specific orientations
+//    if (orientation == UIDeviceOrientationFaceUp || orientation == UIDeviceOrientationFaceDown || orientation == UIDeviceOrientationUnknown || currentOrientation == orientation) {
+//        return;
+//    }
+//    //[NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(relayoutLayers) object:nil];
+//    //Responding only to changes in landscape or portrait
+//    currentOrientation = orientation;
+//    
+//    if ((UIDeviceOrientationIsPortrait(currentOrientation) && UIDeviceOrientationIsPortrait(orientation)) ||
+//        (UIDeviceOrientationIsLandscape(currentOrientation) && UIDeviceOrientationIsLandscape(orientation))) {
+//        //still saving the current orientation
+//        currentOrientation = orientation;
+//        return;
+//    }
+//    //
+//    //[self performSelector:@selector(orientationChangedMethod) withObject:nil afterDelay:0];
+//}
 
 @end
